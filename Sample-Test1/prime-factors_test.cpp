@@ -34,3 +34,8 @@ TEST_F(PrimeFixure, Of6) {
 	expected = { 2, 3 };
 	EXPECT_EQ(expected, prime_factor.of(6));
 }
+
+TEST_F(PrimeFixure, Of9) {
+	expected = { 3, 3 };
+	EXPECT_EQ(expected, prime_factor.of(9));
+}
